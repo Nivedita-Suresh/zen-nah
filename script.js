@@ -28,6 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const fact = uselessFacts[Math.floor(Math.random() * uselessFacts.length)];
         uselessFactDiv.textContent = fact;
 
+      // Style it directly with JS
+        uselessFactDiv.style.color = "#7e1054"; // pink color
+        uselessFactDiv.style.fontFamily = "'Comic Sans MS', cursive, sans-serif"; // fun font
+        uselessFactDiv.style.fontSize = "1.5rem"; // bigger text
+        uselessFactDiv.style.fontWeight = "bold"; // make it bold
+
     function makePath(offset=0) {
         let d = 'M0 ' + (height/2);
         const pts = 200;
