@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a2e;
+    color: white;
+    overflow: hidden;
+    background-image: url('bg.jpg'); /* Use the correct path to your image */
+    background-size: cover; /* Makes the image cover the whole background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling *//* Prevent scrollbars from appearing */
+}
+
+#breathing-container {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    background-color: #2e2a4a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#breathing-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sine-path {
+    stroke: #ff6a88;
+    stroke-width: 3;
+    fill: none;
+}
+
+#ball {
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #6a8aff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%); /* Center the ball on its coordinates */
+    box-shadow: 0 0 15px rgba(106, 138, 255, 0.7);
+    z-index: 10;
+}
+
+#breathing-instruction, #chaos-message {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff6a88;
+}
+
+#chaos-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #ff6a88;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none; /* Ignore mouse events */
+    z-index: 20;
+}
