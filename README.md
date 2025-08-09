@@ -60,8 +60,13 @@ For Software:
 *In Chaos Mode, the ball and wave move in random, unpredictable patterns, creating a playful, high-energy challenge that breaks the rhythm and keeps users alert*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1132" height="837" alt="Workflow Diagram Planning Whiteboard in Purple Blue Modern Professional Style" src="https://github.com/user-attachments/assets/0dce3b5d-76ec-4f11-a574-9a8bb078b845" />
+(Add your workflow/architecture diagram here)
+*The ball moves up — you breathe in.
+The ball stops — you hold your breath.
+The ball moves down — you breathe out.
+Somewhere in between… chaos happens as random useless facts crash into your peaceful moment.”
+*
 
 <img width="1908" height="1073" alt="image" src="https://github.com/user-attachments/assets/5a805796-e2da-4ef8-a7ac-c71493affe19" />
 (Add photos of build process here)
@@ -86,8 +91,7 @@ Finally, in JavaScript, we calculated the SVG path length so the ball could move
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Nivedita Suresh]: []
-- [Name 2]: [Specific contributions]
+- [Anvi keertana R]: [Specific contributions]
 - [Name 3]: [Specific contributions]
 
 ---
