@@ -51,35 +51,42 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1900" height="861" alt="image" src="https://github.com/user-attachments/assets/93acdb76-9239-45d0-b607-2aec37215701" />
+(normal mode)
+*In Normal Mode, the ball and wave follow a smooth, predictable breathing pattern — guiding the user to inhale and exhale calmly.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1913" height="849" alt="image" src="https://github.com/user-attachments/assets/000d9d74-cb51-41b7-a299-b72a1018e903" />
+(chaos mode)
+*In Chaos Mode, the ball and wave move in random, unpredictable patterns, creating a playful, high-energy challenge that breaks the rhythm and keeps users alert*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+<img width="1908" height="1073" alt="image" src="https://github.com/user-attachments/assets/5a805796-e2da-4ef8-a7ac-c71493affe19" />
+(Add photos of build process here)
+*Build Process
 
-![Final](Add photo of final product here)
+The creation of ZEN?NAH followed a very calm and mindful development flow… until we ruined it with distractions. We began by setting up a simple three-file structure — index.html, styles.css, and script.js — so we could keep the breathing animation logic, styling, and markup neatly separated. The HTML provides the core structure: an SVG path for the ball’s journey, a circular “ball” element, and a text prompt that changes between Breathe In, Hold, and Breathe Out. We also added a container for our “useless” element: a random trivia box that interrupts you right when you’re starting to feel relaxed.
+
+Once the structure was ready, we moved to CSS, styling the background, centering the animation on the screen, and making the ball smooth, round, and aesthetically pleasing (which is completely wasted since your focus will be stolen by irrelevant facts). The SVG path was given a soft, barely-visible line to guide the animation, while typography and color schemes were chosen for maximum serenity… before the chaos begins.
+
+Finally, in JavaScript, we calculated the SVG path length so the ball could move smoothly along it. We defined three breathing phases with precise durations for inhale, hold, and exhale. Using requestAnimationFrame, we animated the ball’s position along the path and updated the on-screen instructions in sync with the breathing cycle. A random fact generator was added to trigger every few seconds, ensuring you never achieve true Zen. Once tested locally in a browser, the project was ready to deploy on GitHub Pages so anyone can be distracted in style.*
+
+<img width="1914" height="859" alt="image" src="https://github.com/user-attachments/assets/d43cfa8a-7c3e-4bc4-829d-e391354f916b" />
+(Add photo of final product here)
 *Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
+- [Nivedita Suresh]: []
 - [Name 2]: [Specific contributions]
 - [Name 3]: [Specific contributions]
 
