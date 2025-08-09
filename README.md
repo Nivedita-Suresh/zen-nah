@@ -1,54 +1,51 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [ZEN?NAH] 🎯
+# ZEN?NAH 🎯
 
 
 ## Basic Details
-### Team Name: [Techreno]
+### Team Name: Techreno
 
 
 ### Team Members
-- Member 1: [Anvi keertana R] - [Government engineering college kozhikode]
-- Member 2: [Nivedita Suresh] - [Government engineering college kozhikode]
+- Member 1: Anvi keertana R - Government engineering college kozhikode
+- Member 2: Nivedita Suresh - Government engineering college kozhikode
 
 ### Project Description
-[### Project Description
-[A web app that guides you through calm breathing exercises… while constantly interrupting you with random, irrelevant trivia so you can’t actually relax.]
+
+A web app that guides you through calm breathing exercises… while constantly interrupting you with random, irrelevant trivia so you can’t actually relax.]
 
 ### The Problem (that doesn't exist)
-[People are getting too calm during meditation. Inner peace levels are dangerously high, and boredom is striking mid-breath.]
+People are getting too calm during meditation. Inner peace levels are dangerously high, and boredom is striking mid-breath.
 
 ### The Solution (that nobody asked for)
-[We fixed meditation by adding completely useless facts every few seconds, ensuring you stay mildly entertained, slightly distracted, and nowhere near Zen.]
-]
+We fixed meditation by adding completely useless facts every few seconds, ensuring you stay mildly entertained, slightly distracted, and nowhere near Zen.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used-HTML,CSS,Javascript]
-- [Frameworks used-none]
-- [Libraries used-Vanilla Javascript, SVG]
-- [Tools used-Code editor VS Code
+- Languages used-HTML,CSS,Javascript
+- Frameworks used-none
+- Libraries used-Vanilla Javascript, SVG
+- Tools used-Code editor VS Code
 - Web browser developer tools for testing
   Online image/logo editors Canva for assets
   Git/GitHub for version control 
 
-]
-
-For Hardware:
-- NONE
 
 ### Implementation
-For Software:
-# Installation
-[NONE]
+For Software:The project is implemented as a simple front-end web application using HTML, CSS, and JavaScript. The HTML provides the structure — an SVG path for the ball animation, a moving ball element, text prompts for breathing phases, and a container for random trivia. CSS handles styling, positioning, and smooth animations to give the app a calming (but deceptively misleading) aesthetic. JavaScript drives the animation logic, calculating the ball’s position along the path for inhale, hold, and exhale phases, updating the prompts in real-time, and injecting random trivia at set intervals to maintain the “useless” distraction effect. The app runs entirely in the browser and can be deployed easily on GitHub Pages or any static hosting service.
+
 
 # Run
 [NO SPECIFIC COMMANDS TO RUN]
 
 ### Project Documentation
-For Software:
+The project is implemented as a simple front-end web application using HTML, CSS, and JavaScript. The HTML provides the structure — an SVG path for the ball animation, a moving ball element, text prompts for breathing phases, and a container for random trivia. CSS handles styling, positioning, and smooth animations to give the app a calming (but deceptively misleading) aesthetic. JavaScript drives the animation logic, calculating the ball’s position along the path for inhale, hold, and exhale phases, updating the prompts in real-time, and injecting random trivia at set intervals to maintain the “useless” distraction effect. The app runs entirely in the browser and can be deployed easily on GitHub Pages or any static hosting service.
+
+
 
 # Screenshots (Add at least 3)
 <img width="1900" height="861" alt="image" src="https://github.com/user-attachments/assets/93acdb76-9239-45d0-b607-2aec37215701" />
@@ -82,17 +79,10 @@ Finally, in JavaScript, we calculated the SVG path length so the ball could move
 (Add photo of final product here)
 *Explain the final build*
 
-### Project Demo
-# Video
-
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Anvi keertana R]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Anvi keertana R]: [Came up with the original idea, coded parts of the app, designed the UI layout, and created the logo.]
+- [nivedita suresh]: [Coder for core breathing animation logic, selected the calming-yet-irrelevant background image.]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
